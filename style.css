@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand img {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+/*-----------image-head---------------*/
+header .row {
+    padding-left: 5vh;
+    min-height: 90vh;
+    align-items: center;
+    background-image: url(images/moon-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+
+header .form-inline {
+    margin-top: 5vh;
+    display: flex;
+}
+header .submit {
+    margin-left: 15px;
+}
+header .tittle {
+    font-weight: bold;
+}
+
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#presentation .media {
+    display: flex;
+    padding: 0.5em 1em;
+}
+#presentation .media span {
+    color: rgb(143, 143, 236);
+    font-size: 3em;
+    width: 4em ;
+    text-align: center;
+    position: relative;
+} 
+#presentation .media .media-body {
+    
+    text-align: justify;
+    padding-left: 10px; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#presentation .media:hover {
+    background-color: rgb(248, 249, 250);
+    border-radius: 5px;
+}
+
+
+/*---------------Avis------------------------*/
+
+#view .avis-client {
+    background-color: gray;
+    height: 620px;
+    justify-content: center;
+    color: white;
+    opacity: 0.5;
+    font-weight: bold;
+    display: flex;
+    flex-direction:column ;
+}
+#view .avis-client h3 {
+    margin: 2rem;
+}
+#view span {
+    font-size: 3em;
+}
+#view .picture {
+    height: 620px;
+    background-image: url(images/Sunset.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*---------------contact------------------------*/
+#contact {
+    margin-top: 100px;
+    height: 620px;
+    background-image: url(images/form.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact .form-contact {
+    padding-top: 100px;
+    
+    
+}
+
